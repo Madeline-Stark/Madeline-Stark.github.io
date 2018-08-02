@@ -11,16 +11,16 @@ In the future I’d love to come back to this project and try out my original pl
 Once I’d figured out my plan of attack, I felt confident going forward. I feel like I have a good understanding of object oriented programming and know that many of the labs I’ve completed for the course are much more complicated then the requirements for the lab. However, I hit an early road block when attempting to do something I had never done before: connecting a lab to GitHub. The GitHub instructions to clone a repository were straightforward enough and I found plenty of articles online. My problem was that even though I could clone the repository to my IDE, I wasn’t able to save any changes to GitHub. At first I went to the CLI study group and our section lead, Kenlyn, helped me connect my IDE to GitHub. It turns out my undoing was that I wasn’t using an ssh link to clone my repository. I then tried to replicate this on my own and of course it wasn’t working. Google was unhelpful and no variation on the process seemed to work. I ended up being able to get a hold of Kenlyn for a last minute meeting where I realized a major part of my issue was that I was writing git commit -m"message” instead of git commit -m “message”. I was very relieved to find the culprit and very humbled to have been nearly destroyed by a missing space. I always pride myself on my lack of typos, but moving forward I will need to be even more scrupulous with my formatting. I wish I had had a straight forward guide to connecting to GitHub, so I’ll include one here for any other flustered students. 
 
 Steps to clone a repository:
-git clone ssh link (ssh not https!) 
-cd nameofproject
-bundle gem nameofproject (this is assuming you’ve already installed the gems) 
-git add . (Initializes git file) 
+* git clone ssh link (ssh not https!) 
+* cd nameofproject
+* bundle gem nameofproject (this is assuming you’ve already installed the gems) 
+* git add . (Initializes git file) 
 
 How to save a new change:
-git add . 
-git commit -m “message”
-git push
-
+* git add . 
+* git commit -m “message”
+* git push
+* 
 
 So simple! I know! But when you’ve been staring at the same code for an hour, those obvious mistakes aren’t always so clear. I felt really confident that I understood all concepts leading up to this project, but it was the little things that I hadn’t tried before that really tripped me up. Ultimately I reminded myself of what I impress upon my students: that you need to get comfortable with being uncomfortable. It can be really hard when students are working on new, difficult subject matter. We all often want to run back to our comfort zones, whether you’re a kindergartener or a post grad. Even the most successful students will often shy away from tasks that force them to struggle, as they’re much happier repeating tasks that they know they can succeed in. This is something Carol Dweck has done a lot of research on and I highly recommend a [read](https://news.stanford.edu/pr/2007/pr-dweck-020707.html). I was really fortunate to have this knowledge in my toolbelt, though of course a little humbled that I needed a reminder of the same aphorism I used on my elementary aged students. 
 After my struggles to get my CLI up and working (including all those I don’t have room for here!), I ended up with a project I am proud of. I built a CLI that was capable of greeting a user, providing a list of options, obtaining user input and acting on it. With my original idea significantly narrowed down, my CLI did feel a little bare. I wanted to provide at least some functionality that you couldn’t get from just pulling up the imdb top 250 page. So I decided to create an option for checking whether or not your favorite movie is included in the list. Sure, a visitor to the page could easily use command f to come to the same conclusion, but my method was at least more elegant. My CLI also provides the option to see the release date of a movie. And, of course, a user can use the CLI to access as list of the Top 250 films. This project really cemented what I’ve learned about object oriented programming so far and was a nice way to reflect on my progress.
