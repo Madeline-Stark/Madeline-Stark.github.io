@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Why I Decided to Enter Software Development "
+title:      "Why I Decided to Study Software Development "
 date:       2018-02-16 22:43:04 -0500
 permalink:  why_i_decided_to_enter_software_development
 ---
