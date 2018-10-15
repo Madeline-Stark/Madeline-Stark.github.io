@@ -13,6 +13,6 @@ permalink:  dear_diary_a_sinatra_and_active_record_application
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This was also one of my first times using a Helper class to store methods. I created methods to check if the params being passed in are valid, whether or not the user is logged in, and who the current user is. I found storing these methods in a helper class to be a great way of avoiding the repetition of code. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If I were to add more to this project I’d like to flesh out the html and css. I’d also consider giving users more options like whether or not to make an entry private or the option to change the date. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If I were to add more to this project I’d like to flesh out the HTML and CSS. I’d also consider giving users more options like whether or not to make an entry private or the option to change the date. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other than those possible changes I’m very proud of what I’ve created and everything I’ve learned so far in the program. 
