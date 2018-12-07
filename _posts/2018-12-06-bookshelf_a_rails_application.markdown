@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Bookshelf: A Rails Application"
-date:       2018-12-07 00:21:07 +0000
+date:       2018-12-06 19:21:08 -0500
 permalink:  bookshelf_a_rails_application
 ---
 
