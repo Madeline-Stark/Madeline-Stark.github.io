@@ -1,15 +1,14 @@
 # Site settings
+author: Madeline Stark
 title: Madeline Makes Things
 header-img: img/home-bg.png
 email: madeline.stark1@gmail.com
-copyright_name: Madeline-Stark
+copyright_name: Madeline Stark
 description: > # this means to ignore newlines until "baseurl:"
   My exploration of Ruby and Javascript 
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Madeline-Stark
-learn_profile: Madeline-Stark
-email_username: madeline.stark1@gmail.com
 
 # Build settings
 markdown: kramdown
