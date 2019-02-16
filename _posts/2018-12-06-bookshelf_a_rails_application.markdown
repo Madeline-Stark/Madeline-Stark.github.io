@@ -5,7 +5,6 @@ date:       2018-12-06 19:21:08 -0500
 permalink:  bookshelf_a_rails_application
 ---
 
-![bookshelf](https://i.imgur.com/lslzjUa.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For my Rails portfolio project I built an app called [Bookshelf](https://github.com/Madeline-Stark/Bookshelf) that tracks books that a user has read or is currently reading. I came to Rails after learning Sinatra and I don’t think I will ever go back. Although I appreciate the deeper understanding I gained from learning Rails, Rails offers up a lot more “magic”. What took lines of html before is now much simpler to execute. Now instead of writing out an href element, I can just use link_to. And forms are much cleaner now with form_for. Routing is also simpler now that rendering is implicit. If I create a new action, the controller automatically knows what view I want to render.  
 
