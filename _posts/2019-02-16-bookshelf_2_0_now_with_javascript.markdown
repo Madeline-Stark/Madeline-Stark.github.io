@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Bookshelf 2.0: Now With Javascript"
+title:      "Bookshelf 2.0: Now With JavaScript"
 date:       2019-02-16 15:13:56 -0500
 permalink:  bookshelf_2_0_now_with_javascript
 ---
