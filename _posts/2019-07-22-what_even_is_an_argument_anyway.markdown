@@ -45,7 +45,7 @@ I like to think of a  method like a vending machine. My output will be different
 This is that obsolete vending machine in code form:
 
    ```
-def lame_vending_machine(food)
+def lame_vending_machine(snack)
      "You chose a Nature’s Valley Bar.”
 end
 ```
@@ -56,11 +56,11 @@ THERE’S GOT TO BE A BETTER WAY!
 
 Instead, we want to make our code reusable so that we can give our method different input and get a different result.
 ```
-def super_fancy_vending_machine(food)
-  "You chose #{food}”
+def super_fancy_vending_machine(snack)
+  "You chose #{snack}”
 end 
 ```
-This method will take an input of food and interpolate it into a string to return the user’s choice. 
+This method will take an input of snack and interpolate it into a string to return the user’s choice. 
 
 Look at the different return values of these methods when we call them with the same argument:
 
