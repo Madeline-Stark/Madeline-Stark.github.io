@@ -36,13 +36,16 @@ And expected the output to equal 6.
 
 I smacked my palm to my forehead and accepted my fate. I was going to have to learn what an argument was. This doesn’t have to be the end of the world though. Arguments allow our code to be reusable. Without them, our methods are pretty useless.
 
-    I like to think of a  method like a vending machine. My output will be different depending on what I input as my argument. If I put in D7, I’ll get a pack of delicious Gardetto’s Original Snack Mix, but if my finger slips and I put D8, I’m stuck with Fig Newtons and out 50 cents. A vending machine that gave us the same item, no matter what we input, would be pretty useless. We could punch in any combo of numbers and still be stuck with something disgustingly healthy, like a crumbly, good for nothing Nature’s Valley Bar
+I like to think of a  method like a vending machine. My output will be different depending on what I input as my argument. If I put in D7, I’ll get a pack of delicious Gardetto’s Original Snack Mix, but if my finger slips and I put D8, I’m stuck with Fig Newtons and out 50 cents. A vending machine that gave us the same item, no matter what we input, would be pretty useless. We could punch in any combo of numbers and still be stuck with something disgustingly healthy, like a crumbly, good for nothing Nature’s Valley Bar.
+		
 This is that obsolete vending_machine in code form:
+
    ```
  def lame_vending_machine(food)
         "You chose a Nature’s Valley Bar.”
     end
 ```
+
 This method will output a Nature’s Valley Bar no matter what we input. Noooo!!
 
 THERE’S GOT TO BE A BETTER WAY!
