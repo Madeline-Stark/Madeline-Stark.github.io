@@ -77,19 +77,21 @@ super_fancy_vending_machine(“hot cheetos”)
 Much better!
 
 An argument is just whatever information we pass in when we call the method.
+
+Here the argument is a string:
+
 			my_string_method(“boop!”)
 
-Here the argument is a string.
+But I can also pass in a number:
             
 					my_number_method(42)
 
-But I can also pass in a number.
+Or even an array:
 
 					my_array_method(["Wubba", "Lubba", "dub", "dub"])
 
-Or even an array
 
-	One word that you might also hear about in regards to arguments is* parameter.* A parameter is just the variable name we’re using to access whatever the test passes in.
+One word that you might also hear about in regards to arguments is* parameter.* A parameter is just the variable name we’re using to access whatever the test passes in.
 		
 ```
 def favorite_song(song)
@@ -139,4 +141,4 @@ But we’re calling it without one:
 	 
 If you’re programming using Test Drive Development, it’s helpful to check how the test is calling a method before you define it. That will help you avoid errors like these
 
-    Hopefully now you have a better understanding of how you can use arguments. They might seem confusing now, but they will make your life a lot easier in the long run. Unless of course you only want to create methods that output the same thing forever and ever until the end of time. In that case, you do you.
+Hopefully now you have a better understanding of how you can use arguments. They might seem confusing now, but they will make your life a lot easier in the long run. Unless of course you only want to create methods that output the same thing forever and ever until the end of time. In that case, you do you.
