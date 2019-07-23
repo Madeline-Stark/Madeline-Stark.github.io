@@ -68,8 +68,9 @@ Look at the different return values of these methods when we call them with the 
 lame_vending_machine(“hot cheetos”)
         => "You chose a Nature’s Valley Bar. ” #this is the return value
 ```
-    
-		Have fun getting those crumbs out of your new carpeting.
+  
+	
+Have fun getting those crumbs out of your new carpeting.
 		
 Vs.
 
@@ -95,11 +96,11 @@ Or even an array:
 `my_array_method(["Wubba", "Lubba", "dub", "dub"])`
 
 
-One word that you might also hear about in regards to arguments is* parameter.* A parameter is just the variable name we’re using to access whatever the test passes in.
+One word that you might also hear about in regards to arguments is * parameter.* A parameter is just the variable name we’re using to access whatever the test passes in.
 		
 ```
 def favorite_song(song)
-		puts song
+  puts song
 end
 ```
 
