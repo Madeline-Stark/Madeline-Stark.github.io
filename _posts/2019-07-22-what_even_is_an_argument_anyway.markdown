@@ -1,29 +1,37 @@
 ---
 layout: post
 title:      "What Even Is An Argument Anyway??"
-date:       2019-07-23 02:08:44 +0000
+date:       2019-07-22 22:08:45 -0400
 permalink:  what_even_is_an_argument_anyway
 ---
 
 
 TLDR: How to use arguments in Ruby
 
-    When I first started learning to code, I came up with this great system for passing my tests. If the test was passing my method two numbers like this
+    When I first started learning to code, I came up with this great system for passing my tests. If the test was passing my method two numbers like this:
+		
 `sum(2, 3)`
-And they wanted my method to return the sum
+
+And they wanted my method to return the sum:
+
 ```
     expect($stdout).to receive(:puts).with(5) 
     #this just means we’re expecting the method to puts 5
 ```
+
 All I had to do was write a method like this
+
 ```
 def add(first_number, second_number)
     puts 5
 end
 ```
+
 Magic! It worked perfectly and I never had to bother with those pesky arguments the test passed in. 
 This victory lasted for about two seconds until I saw the next test called sum like this:
+
 `sum(3, 3)`
+
 And expected the output to equal 6.
 
 I smacked my palm to my forehead and accepted my fate. I was going to have to learn what an argument was. This doesn’t have to be the end of the world though. Arguments allow our code to be reusable. Without them, our methods are pretty useless.
