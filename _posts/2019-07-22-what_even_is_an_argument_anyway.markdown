@@ -8,7 +8,7 @@ permalink:  what_even_is_an_argument_anyway
 
 TLDR: How to use arguments in Ruby
 
-    When I first started learning to code, I came up with this great system for passing my tests. If the test was passing my method two numbers like this:
+When I first started learning to code, I came up with this great system for passing my tests. If the test was passing my method two numbers like this:
 		
 `sum(2, 3)`
 
