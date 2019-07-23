@@ -54,7 +54,7 @@ This method will output a Nature’s Valley Bar no matter what we input. Noooo!!
 
 THERE’S GOT TO BE A BETTER WAY!
 
-Instead, we want to make our code reusable so that we can give our method different input and get a different result
+Instead, we want to make our code reusable so that we can give our method different input and get a different result.
 ```
 def super_fancy_vending_machine(food)
   "You chose #{food}”
@@ -96,7 +96,7 @@ Or even an array:
 `my_array_method(["Wubba", "Lubba", "dub", "dub"])`
 
 
-One word that you might also hear about in regards to arguments is * parameter.* A parameter is just the variable name we’re using to access whatever the test passes in.
+One word that you might also hear about in regards to arguments is *parameter*. A parameter is just the variable name we’re using to access whatever the test passes in.
 		
 ```
 def favorite_song(song)
@@ -104,7 +104,7 @@ def favorite_song(song)
 end
 ```
 
-Here the parameter is song. When we reference song inside of our method, we’re really saying, “Hey! Give me that thing you passed into the method when you called it!”. Try to pick a variable name that’s descriptive of what you will pass in, but ultimately it can be anything. However, if you name all your parameters “stuff" and "thing", you’re going to have a bad time. 
+Here the parameter is song. When we reference song inside of our method, we’re really saying, “Hey! Give me that thing you passed into the method when you called it!” Try to pick a variable name that’s descriptive of what you will pass in, but ultimately it can be anything. However, if you name all your parameters “stuff" and "thing", you’re going to have a bad time. 
 
 Another issue to be wary of with arguments, is some of the common errors you might see. 
 
@@ -146,6 +146,6 @@ But we’re calling it without one:
 
 ` cart`
 	 
-If you’re programming using Test Drive Development, it’s helpful to check how the test is calling a method before you define it. That will help you avoid errors like these
+If you’re programming using Test Drive Development, it’s helpful to check how the test is calling a method before you define it. That will help you avoid errors like these.
 
 Hopefully now you have a better understanding of how you can use arguments. They might seem confusing now, but they will make your life a lot easier in the long run. Unless of course you only want to create methods that output the same thing forever and ever until the end of time. In that case, you do you.
