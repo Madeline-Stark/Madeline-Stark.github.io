@@ -45,9 +45,9 @@ I like to think of a  method like a vending machine. My output will be different
 This is that obsolete vending_machine in code form:
 
    ```
-	def lame_vending_machine(food)
-       "You chose a Nature’s Valley Bar.”
-	end
+def lame_vending_machine(food)
+     "You chose a Nature’s Valley Bar.”
+end
 ```
 
 This method will output a Nature’s Valley Bar no matter what we input. Noooo!!
