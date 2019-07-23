@@ -72,7 +72,7 @@ lame_vending_machine(“hot cheetos”)
 	
 Have fun getting those crumbs out of your new carpeting.
 		
-Vs.
+vs.
 
 ```
 super_fancy_vending_machine(“hot cheetos”)
