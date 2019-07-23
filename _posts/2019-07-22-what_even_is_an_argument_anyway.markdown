@@ -17,8 +17,8 @@ sum(2, 3)
 And they wanted my method to return the sum:
 
 ```
-    expect($stdout).to receive(:puts).with(5) 
-    #this just means we’re expecting the method to puts 5
+expect($stdout).to receive(:puts).with(5) 
+#this just means we’re expecting the method to puts 5
 ```
 
 All I had to do was write a method like this
@@ -45,9 +45,9 @@ I like to think of a  method like a vending machine. My output will be different
 This is that obsolete vending_machine in code form:
 
    ```
- def lame_vending_machine(food)
-        "You chose a Nature’s Valley Bar.”
-    end
+	def lame_vending_machine(food)
+       "You chose a Nature’s Valley Bar.”
+	end
 ```
 
 This method will output a Nature’s Valley Bar no matter what we input. Noooo!!
@@ -56,16 +56,16 @@ THERE’S GOT TO BE A BETTER WAY!
 
 Instead, we want to make our code reusable so that we can give our method different input and get a different result
 ```
-    def super_fancy_vending_machine(food)
-        "You chose #{food}”
-    end 
+def super_fancy_vending_machine(food)
+  "You chose #{food}”
+end 
 ```
 This method will take an input of food and interpolate it into a string to return the user’s choice. 
 
 Look at the different return values of these methods when we call them with the same argument:
 
    ```
- lame_vending_machine(“hot cheetos”)
+lame_vending_machine(“hot cheetos”)
         => "You chose a Nature’s Valley Bar. ” #this is the return value
 ```
     
@@ -84,15 +84,15 @@ An argument is just whatever information we pass in when we call the method.
 
 Here the argument is a string:
 
-			my_string_method(“boop!”)
+`my_string_method(“boop!”)`
 
 But I can also pass in a number:
             
-					my_number_method(42)
+`my_number_method(42)`
 
 Or even an array:
 
-					my_array_method(["Wubba", "Lubba", "dub", "dub"])
+`my_array_method(["Wubba", "Lubba", "dub", "dub"])`
 
 
 One word that you might also hear about in regards to arguments is* parameter.* A parameter is just the variable name we’re using to access whatever the test passes in.
@@ -121,8 +121,9 @@ cart([“apples”, “oranges”])
 But we haven’t defined our method to accept an argument.
 
    ```
-     def cart
-        end
+def cart
+  puts "cart"
+end
 ```
 				
 And this error is the opposite:
@@ -135,13 +136,14 @@ And this error is the opposite:
 This means that we defined our method to expect an argument
 
 ```
-  def cart(shopping_cart)
-        end
+def cart(shopping_cart)
+  puts shopping_cart
+end
 ```
 
 But we’re calling it without one:
 
-   ` cart`
+` cart`
 	 
 If you’re programming using Test Drive Development, it’s helpful to check how the test is calling a method before you define it. That will help you avoid errors like these
 
