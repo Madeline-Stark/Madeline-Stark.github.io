@@ -10,7 +10,9 @@ TLDR: How to use arguments in Ruby
 
 When I first started learning to code, I came up with this great system for passing my tests. If the test was passing my method two numbers like this:
 		
-`sum(2, 3)`
+```
+sum(2, 3)
+```
 
 And they wanted my method to return the sum:
 
@@ -30,9 +32,11 @@ end
 Magic! It worked perfectly and I never had to bother with those pesky arguments the test passed in. 
 This victory lasted for about two seconds until I saw the next test called sum like this:
 
-`sum(3, 3)`
+```
+sum(3, 3)
+```
 
-And expected the output to equal 6.
+And it expected the output to equal 6.
 
 I smacked my palm to my forehead and accepted my fate. I was going to have to learn what an argument was. This doesn’t have to be the end of the world though. Arguments allow our code to be reusable. Without them, our methods are pretty useless.
 
@@ -103,7 +107,7 @@ Here the parameter is song. When we reference song inside of our method, we’re
 
 Another issue to be wary of with arguments, is some of the common errors you might see. 
 
-    ```
+```
 ArgumentError:
          wrong number of arguments (given 1, expected 0)
 ```
@@ -123,14 +127,14 @@ But we haven’t defined our method to accept an argument.
 				
 And this error is the opposite:
 
-       ```
+```
  ArgumentError:
             wrong number of arguments (given 0, expected 1)
 ```
 
 This means that we defined our method to expect an argument
 
-      ```
+```
   def cart(shopping_cart)
         end
 ```
