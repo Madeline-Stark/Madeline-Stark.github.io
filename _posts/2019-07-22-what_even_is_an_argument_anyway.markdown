@@ -113,7 +113,7 @@ ArgumentError:
          wrong number of arguments (given 1, expected 0)
 ```
 
-This means that we are calling the method with in an argument
+This means that we are calling the method with in an argument.
 
 ```
 cart([“apples”, “oranges”])
@@ -134,7 +134,7 @@ And this error is the opposite:
             wrong number of arguments (given 0, expected 1)
 ```
 
-This means that we defined our method to expect an argument
+This means that we defined our method to expect an argument.
 
 ```
 def cart(shopping_cart)
