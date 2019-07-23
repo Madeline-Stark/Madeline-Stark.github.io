@@ -59,16 +59,21 @@ Instead, we want to make our code reusable so that we can give our method differ
 This method will take an input of food and interpolate it into a string to return the user’s choice. 
 
 Look at the different return values of these methods when we call them with the same argument:
+
    ```
  lame_vending_machine(“hot cheetos”)
         => "You chose a Nature’s Valley Bar. ” #this is the return value
 ```
-    Have fun getting these crumbs out of your new carpeting.
+    
+		Have fun getting those crumbs out of your new carpeting.
 		
 Vs.
 
-> super_fancy_vending_machine(“hot cheetos”)
->     =>"You chose hot cheetos.”
+```
+super_fancy_vending_machine(“hot cheetos”)
+    =>"You chose hot cheetos.”
+```
+   
 Much better!
 
     An argument is just whatever information we pass in when we call the method.
