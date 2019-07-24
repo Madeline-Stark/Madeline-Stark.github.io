@@ -24,7 +24,7 @@ expect($stdout).to receive(:puts).with(5)
 All I had to do was write a method like this
 
 ```
-def add(first_number, second_number)
+def sum(first_number, second_number)
     puts 5
 end
 ```
@@ -42,7 +42,7 @@ I smacked my palm to my forehead and accepted my fate. I was going to have to le
 
 I like to think of a  method like a vending machine. My output will be different depending on what I input as my argument. If I put in D7, I’ll get a pack of delicious Gardetto’s Original Snack Mix, but if my finger slips and I put D8, I’m stuck with Fig Newtons and out 50 cents. A vending machine that gave us the same item, no matter what we input, would be pretty useless. We could punch in any combo of numbers and still be stuck with something disgustingly healthy, like a crumbly, good for nothing Nature’s Valley Bar.
 		
-This is that obsolete vending machine in code form:
+This is that vending machine in code form:
 
    ```
 def lame_vending_machine(snack)
