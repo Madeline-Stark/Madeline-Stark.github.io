@@ -146,6 +146,6 @@ But we’re calling it without one:
 
 ` cart`
 	 
-If you’re programming using Test Drive Development, it’s helpful to check how the test is calling a method before you define it. That will help you avoid errors like these.
+If you’re programming using Test Driven Development, it’s helpful to check how the test is calling a method before you define it. That will help you avoid errors like these.
 
 Hopefully now you have a better understanding of how you can use arguments. They might seem confusing now, but they will make your life a lot easier in the long run. Unless of course you only want to create methods that output the same thing forever and ever until the end of time. In that case, you do you.
