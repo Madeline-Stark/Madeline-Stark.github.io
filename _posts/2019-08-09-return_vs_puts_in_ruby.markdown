@@ -37,13 +37,13 @@ puts “I have #{amount} dollars!”
 end
 ```
 
-This method will tell users how much money we have. And that’s about it.
+This method will tell users how much money they have. And that’s about it.
 Instead, let’s try returning amount.
 
 Returning something in ruby is actually super easy. The return value of a method is just whatever is on the last line of our method. So here:
 
 ```
-def better_of_ted
+def better_off_ted
 “Ted"
 end
 ```
@@ -53,7 +53,7 @@ the return value is Ted
 But here:
 
 ```
-def better_of_ted
+def better_off_ted
 “Ted”
 “Phil”
 end
@@ -63,7 +63,7 @@ the return value is Phil because “Phil” is the last line of our method.
 Sometimes you might see the return keyword used to explicitly return things in ruby:
 
 ```
-def better_of_ted
+def better_off_ted
 return “Lem”
 “Ted”
 “Phil”
@@ -75,7 +75,7 @@ This will return Lem. Using the explicit return keyword breaks us out of whateve
 So to recap, the return value of this:
 
 ```
-def better_of_ted
+def better_off_ted
 “Veronica”
 end
 ```
@@ -85,7 +85,7 @@ is Veronica
 but the return value of this
 
 ```
-def better_of_ted
+def better_off_ted
 puts “Veronica”
 end
 ```
