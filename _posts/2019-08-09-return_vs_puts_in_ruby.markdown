@@ -16,7 +16,7 @@ end
 
 This will print the words “Hello Madeline!” to the console. Pretty mind blowing stuff when you’re first learning. However, the downside of learning about puts first is that beginners often then want to use puts for every method they write from that point on. And that can be a bad thing because…
 
-**Puts isn’t actually that useful.**
+Puts isn’t actually that useful.
 
 I know, I know, but it made your name show up on the computer! Isn’t that useful enough?
 The reason puts might not be as useful as you think is because of return values. A return value is the information your method is actually sending out. And the return value of puts is nil, nothing, nada. 
