@@ -22,7 +22,7 @@ I know, I know, but it made your name show up on the computer! Isn’t that usef
 The reason puts might not be as useful as you think is because of return values. A return value is the information your method is actually sending out. And the return value of puts is nil, nothing, nada. 
 
 I like to think of returning something vs putsing something as real money vs a photo of money. With cash (or lets be realistic, probably a credit card) I can do actual stuff. I can input my card to the ATM to see what my balance is, withdraw funds, and shop online.
-With a photo of money, I can just show my instagram followers how cool I am. 
+With a photo of money, I can just show my Instagram followers how cool I am. 
 
 
 ![Photo of cat with hundred dollar bills](https://i.imgur.com/kgTkpYp.png?1)
