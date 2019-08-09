@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Return vs. Puts in Ruby"
-date:       2019-08-09 15:35:28 +0000
+date:       2019-08-09 11:35:29 -0400
 permalink:  return_vs_puts_in_ruby
 ---
 
@@ -25,7 +25,7 @@ I like to think of returning something vs putsing something as real money vs a p
 With a photo of money, I can just show my instagram followers how cool I am. 
 
 
-![Photo of cat with hundred dollar bills](https://i.imgur.com/kgTkpYp.png)
+![Photo of cat with hundred dollar bills](https://i.imgur.com/kgTkpYps.png)
 
 Puts is the photo of money, return is the real thing.
 
