@@ -25,7 +25,7 @@ I like to think of returning something vs putsing something as real money vs a p
 With a photo of money, I can just show my instagram followers how cool I am. 
 
 
-![Photo of cat with hundred dollar bills](https://i.imgur.com/kgTkpYpb.png)
+![Photo of cat with hundred dollar bills](https://i.imgur.com/kgTkpYp.png?1)
 
 Puts is the photo of money, return is the real thing.
 
