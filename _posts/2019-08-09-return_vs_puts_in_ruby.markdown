@@ -16,7 +16,7 @@ end
 
 This will print the words “Hello Madeline!” to the console. Pretty mind blowing stuff when you’re first learning. However, the downside of learning about puts first is that beginners often then want to use puts for every method they write from that point on. And that can be a bad thing because…
 
-Puts isn’t actually that useful.
+Puts, on its own, isn’t actually that useful.
 
 I know, I know, but it made your name show up on the computer! Isn’t that useful enough?
 The reason puts might not be as useful as you think is because of return values. A return value is the information your method is actually sending out. And the return value of puts is nil, nothing, nada. 
@@ -131,4 +131,6 @@ And here’s a test expecting a return value:
 
 `expect(buy_cats(200).to eq(100)`
 
-Now that you have return values in your tool belt, you'll be able to do so many more cool things with your code! Happy coding!
+Now that I’ve spent an entire blog post bashing puts, I do need to make some apologies. Puts can actually be a very useful tool for debugging. It allows us to output information to the console that will tell us more about our code. We can use it to keep track of what a variable or method is equal to at any given time. Puts isn't important to a user using your app, but it can be extremely useful and valuable to you as the developer.
+
+Try using puts as a debugging tool, but just know that it won’t affect the return value of your methods. 
