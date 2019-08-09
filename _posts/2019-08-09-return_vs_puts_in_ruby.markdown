@@ -10,7 +10,7 @@ When you’re first learning to code in ruby, one of the first methods you might
 
 ```
 def hello
-puts “Hello Madeline!”
+  puts “Hello Madeline!”
 end
 ```
 
@@ -33,7 +33,7 @@ I don’t mean to disparage puts. Sometimes there’s good reason to show what y
 
 ```
 def puts_balance(amount)
-puts “I have #{amount} dollars!”
+  puts “I have #{amount} dollars!”
 end
 ```
 
@@ -44,7 +44,7 @@ Returning something in ruby is actually super easy. The return value of a method
 
 ```
 def better_off_ted
-“Ted"
+  “Ted"
 end
 ```
 
@@ -54,8 +54,8 @@ But here:
 
 ```
 def better_off_ted
-“Ted”
-“Phil”
+  “Ted”
+  “Phil”
 end
 ```
 
@@ -64,9 +64,9 @@ Sometimes you might see the return keyword used to explicitly return things in r
 
 ```
 def better_off_ted
-return “Lem”
-“Ted”
-“Phil”
+  return “Lem”
+  “Ted”
+  “Phil”
 end
 ```
 
@@ -76,7 +76,7 @@ So to recap, the return value of this:
 
 ```
 def better_off_ted
-“Veronica”
+  “Veronica”
 end
 ```
 
@@ -86,7 +86,7 @@ but the return value of this
 
 ```
 def better_off_ted
-puts “Veronica”
+  puts “Veronica”
 end
 ```
 
@@ -96,7 +96,7 @@ If we want to rewrite our balance method to return the amount, we could do somet
 
 ```
 def return_balance(amount)
-amount
+  amount
 end
 ```
 
@@ -104,8 +104,8 @@ With this method we can actually use our money.
 
 ```
 def buy_cats(amount)
-cost_of_cat = 100
-return_balance(amount) - cost_of_cat #this subtracts the price of a cat from our balance
+  cost_of_cat = 100
+  return_balance(amount) - cost_of_cat #this subtracts the price of a cat from our balance
 end 
 ```
 
@@ -116,8 +116,8 @@ And if we want to be really fancy, we can use return and puts together
 
 ```
 def puts_and_return_balance(amount)
-puts amount
-amount
+  puts amount
+  amount
 end
 ```
 
