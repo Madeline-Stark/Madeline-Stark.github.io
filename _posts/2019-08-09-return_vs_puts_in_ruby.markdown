@@ -29,7 +29,7 @@ With a photo of money, I can just show my Instagram followers how cool I am.
 
 Puts is the photo of money, return is the real thing.
 
-I don’t mean to disparage puts. Sometimes there’s good reason to show what you have instead of returning it. Maybe you want to greet the user. In that case you could type: puts “Hello there!”. Thats definitely helpful, but there’s not a ton else you can do with it. 
+I don’t mean to disparage puts. Sometimes there’s good reason to show what you have instead of returning it. Maybe you want to greet the user in the console. In that case you could type: puts “Hello there!”. Thats definitely helpful, but there’s not a ton else you can do with it. 
 
 ```
 def puts_balance(amount)
