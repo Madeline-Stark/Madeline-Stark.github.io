@@ -6,7 +6,7 @@ permalink:  return_vs_puts_in_ruby
 ---
 
 
-When you’re first learning to code in ruby, one of the first methods you might learn is puts. Puts is great to show beginners because it lets you really see what your code is doing.
+When you’re first learning to code in Ruby, one of the first methods you might learn is puts. Puts is great to show beginners because it lets you really see what your code is doing.
 
 ```
 def hello
